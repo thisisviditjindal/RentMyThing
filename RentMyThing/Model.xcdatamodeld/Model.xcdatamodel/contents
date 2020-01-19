@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17E202" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Bookseller" representedClassName="Bookseller" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="bookcond" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bookgenre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bookname" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="isrenting" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isselling" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="originalprice" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Bookseller" positionX="-63" positionY="-18" width="128" height="133"/>
+    </elements>
+</model>
